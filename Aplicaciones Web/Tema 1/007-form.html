@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplo de formularios con HTML</title>
+  </head>
+  <body>
+    <form
+      name="form-basic"
+      method="post">
+      <input
+        type="text"
+        name="nombre"
+        value="Nombre"
+        size="25"
+        maxlength="25"
+        disabled>
+      <input
+        type="text"
+        name="apellidos"
+        value="Apellidos"
+        size="25"
+        maxlength="25">
+      <input
+        type="text"
+        name="provincia"
+        value="Provincia"
+        size="25"
+        maxlength="25">
+      <textarea name="Aficiones" rows="8" cols="20"></textarea>
+    </form>
+
+<br>
+    <!--Formulario para login-->
+
+    <h3>Bienvenidos a la Deep Web</h3>
+    <form name="form-login" method="post">
+    <p>Nombre de usuario:
+    <input type="text" name="username" value="">
+    </p>
+
+    <p>Clave:
+    <input type="password" name="userpass" value="">
+    </p>
+  </form>
+
+    <form method="post">
+    <p>Elige algun jugador</p>
+    <input type="radio" name="player" value="Karpov"> karpov <br>
+    <input type="radio" name="player" value="Kasparov"> Kasparov <br>
+    <input type="radio" name="player" value="Anand"> Anand <br>
+    <input type="radio" name="player" value="Fisher" checked> Fisher <br>
+
+</form>
+
+
+  </body>
+</html>

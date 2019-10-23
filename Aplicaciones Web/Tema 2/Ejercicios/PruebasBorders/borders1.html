@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Borders</title>
+    <style>
+      p.dotted {border-style: dotted;}
+      p.dashed {border-style: dashed;}
+      p.solid {border-style: solid;}
+      p.double {border-style: groove;}
+      p.ridge {border-style: ridge;}
+      p.inset {border-style: inset;}
+      p.outset {border-style: outset;}
+      p.none {border-style: none;}
+      p.hidden {border-style: hidden;}
+      p.mix {border-style: groove ridge hidden dotted}
+    </style>
+  </head>
+  <body>
+    <h2>Todas las propiedades/estilos de los bordes</h2>
+    <p>Estas propiedades especifican el estilo de cada border</p>
+
+    <p class="dotted">Este sería Dotted</p>
+    <p class="dashed">Este sería Dashed</p>
+    <p class="solid">Este sería Solid</p>
+    <p class="double">Este sería Double</p>
+    <p class="ridge">Este sería Ridge</p>
+    <p class="inset">Este sería Inset</p>
+    <p class="outset">Este sería Outset</p>
+    <p class="none">Este sería None</p>
+    <p class="hidden">Este sería Hidden</p>
+    <p class="mix">Este sería el Mix</p>
+
+  </body>
+</html>
+
+<hr>
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BordersWidth</title>
+    <style>
+      p.one {
+        border-style: solid;
+        border-width: 5px;
+      }
+      p.two {
+        border-style: solid;
+        border-width: medium;
+      }
+      p.three {
+        border-style: dotted;
+        border-width: 2px;
+      }
+      p.four {
+        border-style: dotted;
+        border-width: thick;
+      }
+      p.five {
+        border-style: double;
+        border-width: thick;
+      }
+      p.six {
+        border-style: double;
+        border-width: thick;
+      }
+      p.seven {
+        border-style: solid;
+        border-width: 2px 10px 4px 20px
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Grosor de los bordes</h2>
+    <p>Veremos como es el grosor de los bordes</p>
+
+    <p class="one">Probando este grosor</p>
+    <p class="two">Probando este grosor</p>
+    <p class="three">Probando este grosor</p>
+    <p class="four">Probando este grosor</p>
+    <p class="five">Probando este grosor</p>
+    <p class="six">Probando este grosor</p>
+    <p class="seven">Probando este grosor</p>
+  </body>
+</html>
+
+<hr>
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Colores de Bordes</title>
+    <style>
+      p.uno {
+        border-style: solid;
+        border-color: red;
+      }
+      p.dos {
+        border-style: solid;
+        border-color: green;
+      }
+      p.tres {
+        border-style: solid;
+        border-color: green yellow blue red;
+      }
+    </style>
+  </head>
+<body>
+
+  <h2>Colores de los bordes</h2>
+  <p>Colores especificos de los bordes</p>
+
+  <p class="uno">Borde en rojo</p>
+  <p class="dos">Borde en verde</p>
+  <p class="tres">Borde multicolor</p>
+  <p><b>Note:</b>La propiedad "border-color" no se usa normalmente. Usa la propiedad "border-style" para poner los bordes primero. </p>
+  </head>
+  <body>
+
+<hr>
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>2 estilos de bordes diferentes</title>
+    <style>
+      p {
+        border-top-style: solid;
+        border-right-style: dotted;
+        border-bottom-style: solid;
+        border-left-style: dotted;
+        }
+    </style>
+  </head>
+  <body>
+    <p>2 estilos de bordes diferentes.</p>
+  </body>
+</html>
+  </body>
+</html>
+
+<hr>
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Propiedades de bordes mezclados</title>
+    <style>
+      p.1 {
+        border: 6px solid green;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h2>Propiedades de bordes mezclados</h2>
+    <p class="1">Esta propiedad probaremos border-width, border-style y border-color.</p>
+
+  </body>
+</html>
+
+<hr>
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        p.normal {
+          border: 2px solid red;
+        }
+        p.round1 {
+          border: 2px solid red;
+          border-radius: 5px;
+        }
+        p.round2 {
+          border: 2px solid red;
+          border-radius: 8px;
+        }
+        p.round3 {
+          border: 2px solid red;
+          border-radius: 12px;
+        }
+      </style>
+    </head>
+  <body>
+
+<h2>Radio bordes</h2>
+<p>Elementos de bordes</p>
+
+<p class="normal">Bordes normal</p>
+<p class="round1">Bordes round</p>
+<p class="round2">Bordes rounder</p>
+<p class="round3">Bordes roundest</p>
+
+  </body>
+</html>

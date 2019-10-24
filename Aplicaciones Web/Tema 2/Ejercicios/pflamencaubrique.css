@@ -1,0 +1,45 @@
+body {
+  color:#A02105;
+}
+h1 {
+  color:red;
+}
+body {
+  background-image: url("bg85.gif");
+}
+p.capitalize {
+  text-transform: capitalize;
+}
+img {
+  border:2px solid red;
+  width:250px; height:350px;
+  padding:10px;
+  margin:25px 10px 75px 380px;
+}
+h4 {
+  color:black;
+}
+address {
+  color:black
+}
+ a {
+ color:blue
+}
+p {
+  text-align: justify;
+}
+p.underline {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+margins padding width height

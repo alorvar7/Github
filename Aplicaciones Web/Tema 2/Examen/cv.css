@@ -1,0 +1,34 @@
+table,td,th {
+  border:1px solid;
+  width:555px;
+  height:200px;
+  background-color: white;
+  border-collapse: collapse;
+
+}
+body {
+  background-image: url("azul.jpg");
+
+}
+td {
+  color:white;
+}
+
+div {
+  background-image: url(cielo.jpg);
+
+}
+
+p {
+  width: 560px;
+  color: white;
+  font-size: xx-small;
+}
+h1 {
+  width:10px;
+
+}
+td id.td {
+  color:black
+
+}

@@ -1,0 +1,17 @@
+body {
+background-color:lightgray;
+}
+h1 {
+color:Red;
+text-align: center;
+}
+ul {
+list-style-type: circle;
+
+}
+img.contacto {
+margin-left:50%;
+margin-top:-14%;
+width:44%;
+
+}

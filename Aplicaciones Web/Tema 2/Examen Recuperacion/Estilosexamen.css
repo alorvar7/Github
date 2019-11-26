@@ -1,0 +1,40 @@
+/*estilos de index*/
+body {
+  margin-left:10%;
+  margin-right:10%;
+  background-image: url("descarga.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+td {
+text-align: center;
+
+}
+p.Inicio {
+color:Blue;
+font-size:30px;
+text-align:center;
+text-decoration: underline;
+}
+span.Contacto {
+color:Blue;
+width:120%;
+}
+span.Introdución{
+color:Blue;
+width:120%;
+}
+span.letra {
+color:blue;
+width:120%;
+
+}
+img.logo {
+margin-left:100%;
+width:43%;
+margin-left:84%;
+}
+h2 {
+color:white;
+margin-right:-110%;
+}

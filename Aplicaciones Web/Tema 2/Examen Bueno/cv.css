@@ -1,0 +1,73 @@
+body {
+margin-left:10%;
+margin-right:10%;
+background-color:#00245e;
+}
+p.links {
+color:white;
+font-size:12 px;
+margin:5px 2px;
+text-align:right;
+}
+p.links a {
+color:white;
+
+}
+h1 {
+color:white;
+}
+span.letra {
+color: #2f9bfa;
+font-weight:bold;
+}
+span.unbold {
+font-weight: normal;
+}
+p{
+color:white;
+}
+img.logo {
+width:10%;
+}
+table.tabla1 {
+background-image: url(img/cielo-azul-nubes.jpeg);
+background-repeat: no-repeat;
+background-size:cover;
+width:100%;
+padding:10px 15px;
+border: 0px solid white;
+}
+img.perfil{
+width:20%;
+border:8px solid white;
+margin-right:-31;
+}
+td.left p {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+td.center {
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+div.h2 {
+margin:20px;
+color:white;
+width:160px;
+background-color:#252850;
+}
+table.tabla2 {
+background-color:white;
+width:100%;
+}
+p.pbody {
+color:black;
+}
+div.h3 {
+color:lightblue;
+
+}

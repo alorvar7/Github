@@ -1,0 +1,49 @@
+a {margin: 7px;
+font-family: arial;
+font-size: 12px;
+font-size: 10px;
+}
+address {
+margin: 10px;
+font-family: arial;
+font-size: 11px
+}
+aside {
+border: 1px solid black;
+margin: 4px 3px 0px 0px;
+}
+article {
+border: 1px solid black;
+margin: 10px;
+}
+footer {
+border: 1px solid black;
+margin: 4px 3px 0px 0px;
+}
+header {
+border: 1px solid black;
+margin: 10px 3px 0px 0px;
+}
+h1 {
+margin: 10px;
+font-family: arial;
+font-size: 25px;
+}
+h2 {
+margin: 10px;
+font-family: arial;
+font-size: 15px;
+}
+nav {
+border: 1px solid black;
+margin: 10px;
+}
+p {
+margin: 10px;
+font-family: arial;
+font-size: 11px;
+}
+section {
+border: 1px solid black;
+margin: 10px 3px 0px 0px;
+}

@@ -5,14 +5,19 @@ margin: 10px 3px 0px 0px;
 h1 {
 font-size:20px;
 font-family: arial;
+padding:5px;
 }
 section{
 border:1px solid black;
-
+margin: 10px 3px 0px 0px
+padding:10px
+color:grey;
 }
 form{
-margin: 10px 3px 0px 0px;
-
+margin: 5px 3px 0px 0px;
+border:1px solid black;
+padding:10px;
+margin:10px 10px 10px 10px;
 }
 header{
 border: 1px solid black;
@@ -20,5 +25,10 @@ border: 1px solid black;
 }
 input{
 border:1px solid black;
+
+}
+article{
+border:1px solid Black;
+margin:10px;
 
 }

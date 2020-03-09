@@ -1,0 +1,36 @@
+table {
+width:100%;
+border-collapse:collapse;
+}
+th,td {
+padding: 5px;
+text-align: left;
+width: 25%;
+}
+tr {
+border-top:1px;
+solid-lightgrey;
+}
+header{
+border:1px solid grey;
+font-family: arial;
+color: black;
+padding-left:10px;
+margin-bottom:5px;
+}
+article {
+border:1px solid grey;
+}
+section {
+border: 1px solid grey;
+font-family: arial;
+padding: 10px;
+margin: 12px;
+}
+footer {
+font-family:arial;
+border: 1px solid grey;
+color: black;
+padding: 10px;
+margin-top: 5px;
+}

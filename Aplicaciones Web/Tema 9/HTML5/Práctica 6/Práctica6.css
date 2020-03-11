@@ -32,7 +32,15 @@ border:1px solid black;
 margin:10px 3px 0px 0px;
 
 }
-p.Titulo1 {
+p.titulo1 {
 font-family:arial black;
-font-size:10px;
+font-size:15px;
+}
+p.titulo2 {
+font-family:arial black;
+font-size:15px;
+}
+p.titulo3 {
+font-family:arial black;
+font-size:15px;
 }

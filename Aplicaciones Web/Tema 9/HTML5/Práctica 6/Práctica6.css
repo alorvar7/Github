@@ -1,0 +1,38 @@
+header{
+border:1% solid black;
+margin: 0% 3% 0% 0%;
+padding:0%;
+}
+section{
+border:1% solid black;
+margin: 0% 3% 0% 0%;
+padding:0%;
+}
+form{
+border:1% solid black;
+margin: 10% 3% 0% 0%;
+padding:10%;
+font-family:arial;
+}
+video{
+width:100%;
+}
+th, td {
+padding: 5px;
+width: 47%;
+vertical-align: top;
+text-align: left;
+}
+hgroup {
+border:1px solid black;
+padding:1%;
+}
+article {
+border:1px solid black;
+margin:10px 3px 0px 0px;
+
+}
+p.Titulo1 {
+font-family:arial black;
+font-size:10px;
+}
